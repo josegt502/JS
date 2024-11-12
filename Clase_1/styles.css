@@ -1,0 +1,17 @@
+li{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.subittulo{
+    color: red;
+}
+#contact{
+    background-color: royalblue;
+}
+li:hover{
+    color: seagreen;
+}      
