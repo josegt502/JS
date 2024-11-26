@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+div.box{
+    background-color: green;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+div.boxi{
+    display: inline;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.none-layout{
+    margin-top: 15px;
+    display: none;
+}
+div.boxib{
+    background-color: green;
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.flexbox-layout{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: blue;
+}
+.boxf{
+    background-color: red;
+    flex: 1;
+    height: 100px;
+}
+.target{
+    background-color: yellow;
+    height: 400px;
+    width: 300px;
+}
+div.image_box{
+    background-color: green;
+    display: block;
+    width: 100%;
+    height: 200px;
+    
+}
+div.desc_box{
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+.desc_box {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Asegúrate de que el contenedor tenga altura */
+}
+button.bt_ingresar{
+    margin-top: 20px;
+}

@@ -1,0 +1,29 @@
+body{
+    font-family: serif, Arial, Helvetica;
+    color: aqua;
+}
+div#box{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 10px solid black;
+    margin: 10px;
+    padding: 50px auto;
+}
+div.box{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(88, 14, 14);
+    border: 10px solid black;
+    margin: 0 auto;
+    padding: 50px auto;
+}
+div.logo{
+    /* display: inline-block; */
+    justify-content: center;
+}
+
+img#logo{
+    width: 300px;
+    height: 300px;
+}
