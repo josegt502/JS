@@ -16,3 +16,24 @@ boton2.addEventListener('click', function () {
     div.style.height = '200px';
     div.style.backgroundColor = 'red';
 });
+
+document.getElementById('boton3').addEventListener('click', function () {
+    let lista2 = document.getElementById('lista2');
+    let newElementText = document.getElementById('newElement').value;
+
+    if (newElementText !== '') {
+        let newElementList = document.createElement('li');
+        newElementList.textContent = newElementText;
+
+        //boton eliminar
+        let eliminarBoton = document.createElement('button');
+        eliminarBoton.textContent = 'Eliminar';
+        eliminarBoton.addEventListener('click', function () {
+            lista2.removeChild(newElementList);
+        });
+
+        newElementList.appendChild(eliminarBoton);
+        lista2.appendChild(newElementList);
+        document.getElementById('newElement').value = '';
+    }
+});
