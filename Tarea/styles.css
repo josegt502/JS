@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 120px); /* Ajusta la altura del main */
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+.blanco {
+    background-color: white;
+    flex: 65%;
+}
+
+.gris {
+    background-color: lightgray;
+    flex: 35%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
